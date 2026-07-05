@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poznávačka vzorců</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Biochemie · chemické vzorce</p>
+          <h1>Poznávačka vzorců</h1>
+        </div>
+        <div class="stats" aria-label="Průběh">
+          <span><strong id="score">0</strong> správně</span>
+          <span><strong id="position">1</strong>/<strong id="total">0</strong></span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Nastavení kola">
+        <div class="segmented" role="group" aria-label="Délka kola">
+          <button class="segment active" data-size="20" type="button">20</button>
+          <button class="segment" data-size="50" type="button">50</button>
+          <button class="segment" data-size="all" type="button">Vše</button>
+        </div>
+        <button id="mistakesMode" class="ghost" type="button">Chyby</button>
+        <button id="restart" class="primary" type="button">Nové kolo</button>
+      </section>
+
+      <section class="quiz" aria-live="polite">
+        <div class="formula-stage">
+          <div class="image-tools" aria-label="Přiblížení obrázku">
+            <button id="zoomOut" type="button" title="Oddálit">−</button>
+            <button id="zoomReset" type="button" title="Přizpůsobit">100%</button>
+            <button id="zoomIn" type="button" title="Přiblížit">+</button>
+          </div>
+          <p id="imageStatus" class="image-status">Načítám vzorec</p>
+          <img id="formulaImage" alt="Chemický vzorec k poznání">
+          <a id="imageFallback" class="fallback" target="_blank" rel="noreferrer">Otevřít obrázek</a>
+        </div>
+
+        <div class="answer-panel">
+          <div class="result-row">
+            <p id="feedback" class="feedback">Vyber odpověď</p>
+            <a id="source" class="source" target="_blank" rel="noreferrer">Zdroj</a>
+          </div>
+          <div id="options" class="options"></div>
+          <button id="next" class="next" type="button" disabled>Další</button>
+        </div>
+      </section>
+
+      <section class="review" aria-label="Souhrn">
+        <div>
+          <span class="label">Chybně naposledy</span>
+          <p id="mistakesList">Žádné chyby</p>
+        </div>
+        <button id="clearMistakes" class="ghost" type="button">Vymazat chyby</button>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
