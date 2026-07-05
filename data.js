@@ -30,12 +30,6 @@ window.MOLECULES = [
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3A6-fosfoglukon%C3%A1t.svg"
   },
   {
-    "answer": "ATP",
-    "image": "assets/atp-chemical-structure.png",
-    "sourceTitle": "Soubor:ATP (chemical structure).svg",
-    "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AATP_%28chemical_structure%29.svg"
-  },
-  {
     "answer": "Acetacetát",
     "image": "assets/acetacetat.png",
     "sourceTitle": "Soubor:Acetacetát.svg",
@@ -172,6 +166,12 @@ window.MOLECULES = [
     "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/Asparagin%20%28ionizovan%C3%BD%29.svg",
     "sourceTitle": "Soubor:Asparagin (ionizovaný).svg",
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AAsparagin_%28ionizovan%C3%BD%29.svg"
+  },
+  {
+    "answer": "ATP",
+    "image": "assets/atp-chemical-structure.png",
+    "sourceTitle": "Soubor:ATP (chemical structure).svg",
+    "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AATP_%28chemical_structure%29.svg"
   },
   {
     "answer": "Benzopyren",
@@ -450,10 +450,22 @@ window.MOLECULES = [
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AGlutamin.svg"
   },
   {
+    "answer": "glutathion",
+    "image": "assets/glutathion.png",
+    "sourceTitle": "Vlastní doplněný obrázek: glutathion",
+    "sourceUrl": "assets/glutathion.png"
+  },
+  {
     "answer": "Glycin",
     "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/Glycin%20%28chemical%20structure%29.svg",
     "sourceTitle": "Soubor:Glycin (chemical structure).svg",
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AGlycin_%28chemical_structure%29.svg"
+  },
+  {
+    "answer": "glycylglycin",
+    "image": "assets/glycylglycin.png",
+    "sourceTitle": "Vlastní doplněný obrázek: glycylglycin",
+    "sourceUrl": "assets/glycylglycin.png"
   },
   {
     "answer": "Glykogen",
@@ -714,6 +726,12 @@ window.MOLECULES = [
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AKyselina_kaprylov%C3%A1.svg"
   },
   {
+    "answer": "kyselina linolenová",
+    "image": "assets/kyselina-linolenova.png",
+    "sourceTitle": "Vlastní doplněný obrázek: kyselina linolenová",
+    "sourceUrl": "assets/kyselina-linolenova.png"
+  },
+  {
     "answer": "Kyselina linolová",
     "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/Kyselina%20linolov%C3%A1.svg",
     "sourceTitle": "Soubor:Kyselina linolová.svg",
@@ -888,16 +906,16 @@ window.MOLECULES = [
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AMo%C4%8Dovina.svg"
   },
   {
-    "answer": "N-acetyl-D-galaktosamin",
-    "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/N-acetyl-D-galaktosamin.svg",
-    "sourceTitle": "Soubor:N-acetyl-D-galaktosamin.svg",
-    "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AN-acetyl-D-galaktosamin.svg"
-  },
-  {
     "answer": "N-acetyl-alfa-D-galaktosamin",
     "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/N-acetyl-alfa-D-galaktosamin.svg",
     "sourceTitle": "Soubor:N-acetyl-alfa-D-galaktosamin.svg",
     "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AN-acetyl-alfa-D-galaktosamin.svg"
+  },
+  {
+    "answer": "N-acetyl-D-galaktosamin",
+    "image": "https://www.wikiskripta.eu/w/Special:Redirect/file/N-acetyl-D-galaktosamin.svg",
+    "sourceTitle": "Soubor:N-acetyl-D-galaktosamin.svg",
+    "sourceUrl": "https://www.wikiskripta.eu/w/Soubor%3AN-acetyl-D-galaktosamin.svg"
   },
   {
     "answer": "N-acetylglukosamin",
